@@ -1,0 +1,13 @@
+:scss
+  .navbar-header{
+    a{
+      color: gray;
+      text-decoration: none;
+    }
+  }
+
+%nav.navbar.navbar-default
+  .container-fluid
+    .navbar-header
+      =link_to root_url do
+        %h3 MySchool
